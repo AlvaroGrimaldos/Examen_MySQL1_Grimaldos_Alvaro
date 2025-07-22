@@ -12,7 +12,7 @@ CREATE TABLE medico (
 	prim_apellido VARCHAR(30) NOT NULL,
 	tipo ENUM("Titular", "Interino", "Sustituto") NOT NULL,
 	hor_consultas BOOLEAN NOT NULL,
-	per_sustitucion VARCHAR(50) NOT NULL
+	per_sustitucion INT NOT NULL
 );
 
 -- 2. Tabla empleado
